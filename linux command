@@ -1,0 +1,56 @@
+ls
+ls -al or ls -la
+mkdir $foldername
+vi $filename
+cat $filename
+cd ..
+cd /foldername
+useradd  --(check on google how to use)
+chpasswd
+vi passwd (file contain all user name)
+vi shadow (file contain all passwords)
+pwd
+whoami
+cp
+mv
+rm
+rmdir
+chmod 777 $filename
+ps  (showing status of each and every process running on computer)
+sort -n $filename  -- sort in numeric order 
+sort (check on google)
+ls -al >a.txt  -- (copy output of command in file)
+ls -al | sort >b.txt
+grep "$word" file1 -- find the $word in file
+init 0  --- (for shut down system)
+chown -- (change ownership of file)
+find  -- search file on perticuler location
+wc $filename   --(no. of lines, no. of words, no. of character,filename)
+head $filename
+head -3 $filename (print first 3 lines of file)
+tail -3 $filename (print last 3 lines of file)
+cut ---(check on google)
+paste --- (check on google)
+awk --(check on google)
+sed --(check on google)
+unzip $zipfile
+tar (check on google)
+
+
+
+#netwotking command 
+ipconfig
+nslook up
+
+
+#IPM
+grep
+awk
+sed
+find
+pipe operator
+scp 
+ssh-copy-id
+wc
+
+
