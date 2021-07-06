@@ -1,0 +1,19 @@
+what difference between s3 storage and EBS storage?
+diffrent types of storage in s3?
+explain  policy to bucket in s3?
+what is acl in s3?
+what is lifecycle policy in s3?
+what is bucket policy?
+default permission of bucket?
+
+#IAM
+what is role?
+what is policy?
+what is user?
+what is group?
+diffrence between IAM user and root user?
+what is saml role?
+
+#problem statement
+1. create static bucket and access that bucket end point using route53 
+2. how to access cross account or diffrent user account by configuring cross account role
