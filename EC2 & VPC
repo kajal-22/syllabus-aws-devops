@@ -1,3 +1,4 @@
+# EC2
 what is instance, AMI, SNAPSHOT, volume?
 difference between instance, ami, snapshot?
 difference between spot instance, reserved instance, on demand instance?
@@ -6,10 +7,26 @@ what is placement group?
 why we use userdata?
 how to mount volume to instance(explain steps by step)
 what is security group? what is  inbound and out bount rule?
+#VPC
 differen between security group and nacl?
 difference between public subnet and private subnet?
 what is the use of nat & elastic IP & IG?
 why we use vpc peering?
 why we use vpc end point
 what is vpc transite gatway?
+
+# Elastic load balancer
+1.diffrence between classic, application, & network load balance
+2. diffrence between internet facing and intenal 
+3. how to attach target group to load balancer?
+4. what is autoscaling group?  
+5. what is launch configuration?
+
+
+# problem statement
+1. setup application on private subnet & access that using your respective domain name
+2. setup application on public subent & application should be access with in less latency, more availabilty
+
+
+
 
