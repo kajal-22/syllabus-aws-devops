@@ -1,0 +1,15 @@
+what is instance, AMI, SNAPSHOT, volume?
+difference between instance, ami, snapshot?
+difference between spot instance, reserved instance, on demand instance?
+what is shared tenancy? difference between  shared, dedicated, & dedecated host tenency?
+what is placement group?
+why we use userdata?
+how to mount volume to instance(explain steps by step)
+what is security group? what is  inbound and out bount rule?
+differen between security group and nacl?
+difference between public subnet and private subnet?
+what is the use of nat & elastic IP & IG?
+why we use vpc peering?
+why we use vpc end point
+what is vpc transite gatway?
+
