@@ -1,0 +1,14 @@
+git init
+git pull
+git checkout $branchname
+git branch (displace all branches)
+git push
+git remote add origin
+git update
+git merge $branchname
+git branch $branchname
+git tag
+
+
+
+# write any 10 linux command
