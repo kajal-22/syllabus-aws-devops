@@ -1,0 +1,16 @@
+1.  first create IAM user & download accesskey & secrete key
+2. download awscli on your system
+3. # configure aws cli
+    aws configure
+4. # then you are ready to use aws cli command
+
+
+#awscli command
+aws s3 ls
+aws s3 cp $filename $bucketurl (S#://mybucket/)
+aws s3 $bucketURL $filename
+aws s3 cp $filename $bucketURL --recursive (all objects)
+aws s3 ls --recursive (list all )
+aws s3 mb S3://$bucketname --region ap-south-1
+
+aws ec2 create-vpc --cidr-block 10.0.0.0/16
