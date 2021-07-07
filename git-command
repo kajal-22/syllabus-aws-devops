@@ -8,6 +8,9 @@ git update
 git merge $branchname
 git branch $branchname
 git tag
+git status
+git log
+git diff $branch1name $branch2name
 
 
 
