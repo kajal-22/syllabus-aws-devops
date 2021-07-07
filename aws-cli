@@ -14,3 +14,10 @@ aws s3 ls --recursive (list all )
 aws s3 mb S3://$bucketname --region ap-south-1
 
 aws ec2 create-vpc --cidr-block 10.0.0.0/16
+
+aws iam create-group --group-name abc
+aws iam create-user --user-name xyz
+aws iam create-access-key --user-name bob
+aws iam attach-role-policy --policy-arn  --role-arn 
+aws iam create-policy --policy-name xyz1 --policy-document file://document
+
