@@ -1,0 +1,27 @@
+# create two ubuntu instaces one is public server and another is private server
+# connect both on putty
+# Do the task on public server
+1. ssh-keygen
+2. sudo passwd ubuntu
+3. sudo vi /etc/ssh/sshd_config --- change PAsswordAuthentication  yes
+4. sudo systemctl restart sshd
+
+# Do the task on private server
+1. ssh-keygen
+2. sudo passwd ubuntu
+3. sudo vi /etc/ssh/sshd_config --- change PAsswordAuthentication  yes
+4. sudo systemctl restart sshd
+
+# then goto back on public server
+1. check id_rsa.pub is at location /home/ubuntu/.ssh/
+2. goto that location cd /home/ubuntu/.ssh
+3. ssh-copy-id -i id_rsa.pub ubuntu@privateipof private server
+
+# got to private server
+# check id_rsa.pub is present on server
+go to cd /home/ubuntu/.ssh
+cat authorizedkey -----id_rsa.pub key is prent in the bottom.
+
+
+# then you can connect private instance from public server using id_rsa private key
+  
